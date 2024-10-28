@@ -4,7 +4,7 @@ import Image from "./icons/Image";
 
 function LandingPage() {
   return (
-    <div className="w-screen h-auto bg-gradient-to-t from-blue-500 via-blue-200 to-white flex flex-col items-center ">
+    <div className="w-auto h-auto bg-gradient-to-t from-blue-500 via-blue-200 to-white flex flex-col items-center ">
       <div className="w-auto lg:gap-24 h-16 border-black border-2 align-top mt-5 rounded-full flex justify-between px-5 items-center bg-[#FBFBFB]">
         <button>
           <Link to="/">
@@ -50,7 +50,7 @@ function LandingPage() {
           <p>get the flexibility of a headless CMS and more.</p>
         </div>
       </div>
-      <button className="text-white py-3 px-6 bg-[#222325] rounded-full mt-8 text-xl ">
+      <button className="text-white py-3 px-6 bg-[#222325] hover:bg-[#323337] rounded-full mt-8 text-xl ">
         Sign up for free
       </button>
       <Image />
